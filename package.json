@@ -2,9 +2,9 @@
   "name": "discord-dc-altyapi",
   "version": "0.0.1",
   "description": "DJSV12 DC Altyapı",
-  "main": "phentos.js",
+  "main": "comeback.js",
   "scripts": {
-    "start": "node phentos.js"
+    "start": "node comeback.js"
   },
   "dependencies": {
     "discord.js": "^12.2.0"
