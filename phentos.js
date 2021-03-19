@@ -21,3 +21,5 @@ fs.readdir('./phentoskomutlar/', (err, files) => {
 })
 
 client.login(config.token)
+
+//comeback doğruluk cesaretlilik
