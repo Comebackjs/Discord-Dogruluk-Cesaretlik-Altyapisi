@@ -77,11 +77,11 @@ let secim = new Discord.MessageEmbed()
 .setFooter(`Arox pasladı, Phentos vurdu gol!`)
 .setColor("RANDOM")  
 message.channel.send(secim).then(async phentosarox => {
-phentosarox.react("❕").then(gereksiz => phentosarox.react("❔"))
+comeback.react("❕").then(gereksiz => phentosarox.react("❔"))
 const filtre = (reaction, user) => {
     return ["❕", "❔"].includes(reaction.emoji.name) && user.id === secilenid.id;
 }
-phentosarox.awaitReactions(filtre, { max: 1, time: 30000}).then(collected => {
+comeback.awaitReactions(filtre, { max: 1, time: 30000}).then(collected => {
     const tepki = collected.first();  
   if(tepki.emoji.name == "❕") {
     phentosarox.edit(cesaretembed)
