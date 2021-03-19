@@ -10,7 +10,7 @@ fs.readdir('./phentoskomutlar/', (err, files) => {
   if (err) console.error(err);               
   console.log(`${files.length} komut yüklenecek.`); 
   files.forEach(f => {                      
-    let props = require(`./phentoskomutlar/${f}`);  
+    let props = require(`./comebackkomutlar/${f}`);  
     console.log(`${props.config.name} komutu yüklendi.`);  
     console.log(`Phentos Moruk`)     
     client.commands.set(props.config.name, props); 
