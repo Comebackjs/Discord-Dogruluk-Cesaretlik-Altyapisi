@@ -3,3 +3,5 @@ module.exports = {
   "geliştiriciler": ["kendiid"], 
   "prefix": "prefix(dc!)"
 };
+
+//comeback is god
